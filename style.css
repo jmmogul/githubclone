@@ -1,0 +1,106 @@
+body{
+    background-color: white;
+    font-family: monospace;
+}
+i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+     .sg{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+     }
+
+    .sign{
+        text-align: center;
+        font-style: normal;
+        
+        
+    }
+    .signupform{
+        margin: auto;
+        height: 185px;
+        width: 250px;
+        background-color:  rgb(247, 247, 247);
+        border-radius: 5px;
+    }
+
+    form{
+        padding-left: 15px;
+    }
+
+    form label{
+        display: flex;
+        margin-bottom: 10px;
+        padding-top: 15px;
+        
+    }
+    .forgot{
+        padding-left: 60px;
+        font-size: small;
+        text-decoration: none;
+    }
+    form input{
+        width: 210px;
+        border-radius: 5px;
+        border-width: 1px;
+        height: 20px;
+        border-color: white;
+        
+    }
+
+    button{
+        color: white;
+        background-color: green;
+        border:none;
+        border-radius: 5px;
+        width: 220px;
+        height: 27px;
+        margin-top: 15px;
+
+
+
+    }
+
+    .passkey{
+        margin: auto;
+        height: 80px;
+        width: 250px;
+        background-color: rgb(247, 247, 247);
+        border-radius: 5px;
+        border:solid;
+        border-width: 2px;
+        border-style:inherit;
+        margin-top: 20px;
+        border-color: rgb(84, 99, 112);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .a1{
+        text-decoration: none;
+        
+       
+    }
+    .a2{
+        text-decoration: none;
+       
+    }
+    .n{
+        margin-top: -5px;
+    }
+
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        list-style: none;
+        margin-top: 50px;
+    }
